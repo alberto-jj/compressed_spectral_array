@@ -6,7 +6,7 @@ Of note, as successive epochs are added to the display, information can become h
 
 In order to overcome the above limitation, an ```alpha=0.5``` transparency parameter, as well as a  ```t = np.sqrt(abs(delta))/1.5``` tuning parameter allow to control the height of the peaks.
 
-This Jupyter Notebook includes an implementation of [Luc Kuster's Matplotlib-based waterfall plot](https://github.com/ljbkusters/mpl-waterfall-plot) adapted by [@yjmantilla](https://github.com/yjmantilla/) and [@albertoj1107](https://github.com/albertoj1107/) for EEG data. 
+This Jupyter Notebook includes an implementation of [Luc Kuster's Matplotlib-based waterfall plot](https://github.com/ljbkusters/mpl-waterfall-plot) adapted by [@yjmantilla](https://github.com/yjmantilla/) and [@alberto-jj](https://github.com/alberto-jj/) for EEG data. 
 
 CSA can be plotted in B&W as well as using matplotlib colormaps
 ![image](https://user-images.githubusercontent.com/71186117/192097144-fa32ec1b-f83b-4bef-88a8-c07f36927845.png)
