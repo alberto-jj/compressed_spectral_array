@@ -4,7 +4,7 @@
 # compressed_spectral_array
 
 We use compressed spectral array (CSA) as a representation of the resting-state electroencephalogram (rs-EEG) data.
-Thus, CSA shows super-imposing linear plots of successive epochs of time on each other. The latter generates a 3-dimensional ‘hill and valley’ display of the power density in a single channel. 
+Thus, CSA shows super-imposing linear plots of successive epochs of time on each other. The latter generates a 3-dimensional ‘hills and valleys’ display of the power density in a single channel. 
 Of note, as successive epochs are added to the display, information can become hidden behind ‘hills’ of increased power at particular frequencies [1].
 
 In order to overcome the above limitation, an ```alpha=0.5``` transparency parameter is available, as well as a  ```t = np.sqrt(abs(delta))/1.5``` tuning parameter to control the height of the peaks.
